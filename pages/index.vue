@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="bg-gray-50">
+    <div class="">
       <div class="relative overflow-hidden">
         <div class="absolute inset-y-0 h-full w-full" aria-hidden="true">
           <div class="relative h-full">
@@ -29,7 +29,8 @@
           </div>
         </div>
 
-        <div class="relative pt-6 pb-16 sm:pb-24">
+
+        <div class="relative bg-gray-50 pt-6 pb-16 sm:pb-24">
           <div>
             <div class="mx-auto max-w-7xl px-4 sm:px-6">
               <nav class="relative flex items-center justify-between sm:h-10 md:justify-center" aria-label="Global">
@@ -65,8 +66,9 @@
                 </div>
                 <div class="hidden md:absolute md:inset-y-0 md:right-0 md:flex md:items-center md:justify-end">
               <span class="inline-flex rounded-md shadow">
-                <a href="#"
-                   class="inline-flex items-center rounded-md border border-transparent bg-white px-4 py-2 text-base font-medium text-indigo-600 hover:text-indigo-500">Log in</a>
+                <a href="https://app.optiblob.com"
+                   target="_blank"
+                   class="inline-flex items-center rounded-md border border-transparent bg-white px-4 py-2 text-base font-medium text-indigo-600 hover:text-indigo-500">Accéder à la plateforme</a>
               </span>
                 </div>
               </nav>
@@ -129,22 +131,137 @@
                 <span class="block text-indigo-600">BLOB</span>
               </h1>
               <p class="mx-auto mt-3 max-w-md text-base text-gray-500 sm:text-lg md:mt-5 md:max-w-3xl md:text-xl">Un <b>blob</b>
-                pour optimiser l'électricité du futur <br> et le <b>V2G</b> pour la partager.</p>
+                pour optimiser l'électricité du futur et le <b>V2G</b> pour la partager.</p>
             </div>
           </div>
         </div>
 
-        <div class="relative">
+        <div class="relative bg-gray-50 pb-10">
+          <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
+            <div class="relative sm:py-16 lg:py-0">
+              <div aria-hidden="true" class="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
+                <div class="absolute inset-y-0 right-1/2 w-full rounded-r-3xl bg-white lg:right-72"></div>
+                <svg class="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12" width="404" height="392" fill="none" viewBox="0 0 404 392">
+                  <defs>
+                    <pattern id="02f20b47-fd69-4224-a62a-4c9de5c763f7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                      <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+                    </pattern>
+                  </defs>
+                  <rect width="404" height="392" fill="url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)" />
+                </svg>
+              </div>
+              <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
+                <!-- Testimonial card-->
+                <div class="relative overflow-hidden rounded-2xl shadow-xl">
+                  <img class="h-full w-full" src="../static/Map-des-lignes-hautes-tensions-de-france.png" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
+              <!-- Content area -->
+              <div class="pt-20">
+                <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Optimisation des pertes</h2>
+                <div class="mt-2 space-y-6 text-gray-500 text-justify">
+                  <p class="text-base">Un réseau optimal doit satisfaire à plusieurs contraintes : minimiser les pertes ohmiques, réduire le coût de construction et assurer aux destinataires la puissance dont ils ont besoin, même en cas d'anomalie partielle sur le réseau.</p>
+                  <p class="text-base leading-7">La demande en électricité varie en permanence au cours d'une journée, selon les horaires de travail, les besoins en chauffage, les grands événements publics, etc. L'électricité produite par les centrales nucléaires doit s'ajuster en temps réel à la consommation des utilisateurs. Pour cela le réseau s'appuie sur des centres de répartition de l'électricité : les dispatchings.</p>
+                  <p class="text-base leading-7">Ces dispatchings sont interconnectés par des lignes à hautes tensions. Ces lignes induisent des pertes et leurs maillages doivent être optimisés pour en éviter un maximum.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-50 pt-2">
+          <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="mx-auto max-w-4xl text-center">
+              <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">L'éléctricité Française est avant tout nucléaire.</h2>
+            </div>
+          </div>
+          <div class="mt-10 bg-white pb-12 sm:pb-16">
+            <div class="relative">
+              <div class="absolute inset-0 h-1/2 bg-gray-50"></div>
+              <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div class="mx-auto max-w-5xl">
+                  <dl class="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-4">
+                    <div class="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
+                      <dd class="text-5xl font-bold tracking-tight text-indigo-600">70%</dd>
+                      <dt class="mt-2 text-lg font-medium leading-6 text-gray-500">de production nucléaire</dt>
+                    </div>
+                    <div class="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
+                      <dd class="text-5xl font-bold tracking-tight text-indigo-600">360</dd>
+                      <dt class="mt-2 text-lg font-medium leading-6 text-gray-500">Twh produits en 2021</dt>
+                    </div>
+                    <div class="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
+                      <dd class="text-5xl font-bold tracking-tight text-indigo-600">6 à 10%</dd>
+                      <dt class="mt-2 text-lg font-medium leading-6 text-gray-500">de perte sur le réseau</dt>
+                    </div>
+                    <div class="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
+                      <dd class="text-5xl font-bold tracking-tight text-indigo-600">56</dd>
+                      <dt class="mt-2 text-lg font-medium leading-6 text-gray-500">réacteurs nucléaires</dt>
+                    </div>
+                  </dl>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="relative bg-white py-16">
+          <div class="absolute inset-x-0 top-0 hidden h-1/2 lg:block" aria-hidden="true"></div>
+          <div class="mx-auto max-w-7xl bg-indigo-600 lg:bg-transparent lg:px-8">
+            <div class="lg:grid lg:grid-cols-12">
+              <div class="relative z-10 lg:col-span-4 lg:col-start-1 lg:row-start-1 lg:bg-transparent lg:py-16">
+                <div class="absolute inset-x-0 h-1/2 lg:hidden" aria-hidden="true"></div>
+                <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:p-0">
+                  <div class="aspect-w-10 aspect-h-6 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1">
+                    <img class="rounded-3xl object-cover object-center shadow-2xl" src="../static/blobnetwork.gif" alt="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="relative bg-indigo-600 lg:col-span-10 lg:col-start-3 lg:row-start-1 lg:grid lg:grid-cols-10 lg:items-center lg:rounded-3xl">
+                <div class="absolute inset-0 hidden overflow-hidden rounded-3xl lg:block" aria-hidden="true">
+                  <svg class="absolute bottom-full left-full translate-y-1/3 -translate-x-2/3 transform xl:bottom-auto xl:top-0 xl:translate-y-0" width="404" height="384" fill="none" viewBox="0 0 404 384" aria-hidden="true">
+                    <defs>
+                      <pattern id="64e643ad-2176-4f86-b3d7-f2c5da3b6a6d" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                        <rect x="0" y="0" width="4" height="4" class="text-indigo-500" fill="currentColor" />
+                      </pattern>
+                    </defs>
+                    <rect width="404" height="384" fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)" />
+                  </svg>
+                  <svg class="absolute top-full -translate-y-1/3 -translate-x-1/3 transform xl:-translate-y-1/2" width="404" height="384" fill="none" viewBox="0 0 404 384" aria-hidden="true">
+                    <defs>
+                      <pattern id="64e643ad-2176-4f86-b3d7-f2c5da3b6a6d" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                        <rect x="0" y="0" width="4" height="4" class="text-indigo-500" fill="currentColor" />
+                      </pattern>
+                    </defs>
+                    <rect width="404" height="384" fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)" />
+                  </svg>
+                </div>
+                <div class="relative mx-auto max-w-md space-y-6 py-12 px-4 sm:max-w-3xl sm:py-16 sm:px-6 lg:col-span-6 lg:col-start-4 lg:max-w-none lg:p-0 text-justify">
+<!--                  <p class="text-base text-white leading-7"></p>-->
+<!--                  <p class="text-base text-white leading-7">En fonction de l'existant, il sera possible de corriger aux mieux les interconnexions existantes avec celles proposées par le blob. Voir-->
+<!--                    <a class="text-indigo-500 font-medium" href="https://www.researchgate.net/figure/Comparison-of-the-Physarum-networks-with-the-Tokyo-rail-network-A-In-the-absence-of_fig2_41111573" target="_blank">Physarum Network</a>.</p>-->
+                  <h2 class="text-3xl font-bold tracking-tight text-white" id="join-heading">Le blob</h2>
+                  <p class="text-lg text-white">un organisme monocellulaire vivant en se servant du principe d’optimisation des chemins les plus courts entre ses points de nourriture. De ce constat nous allons recréer l’interconnexion des centres de répartition électriques avec une optimisation de ces chemins.</p>
+                  <p class="text-lg text-white">En fonction de l'existant, il sera possible de corriger aux mieux les interconnexions présentes avec celles proposées par le blob. Pour en savoir plus, le bouton ci-dessous vous informe sur le Physarum Network.</p>
+                  <a class="block w-full rounded-md border border-transparent bg-white py-3 px-5 text-center text-base font-medium text-indigo-700 shadow-md hover sm:inline-block sm:w-auto" href="https://www.researchgate.net/figure/Comparison-of-the-Physarum-networks-with-the-Tokyo-rail-network-A-In-the-absence-of_fig2_41111573" target="_blank">En savoir plus</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="relative bg-white pt-40">
           <div class="absolute inset-0 flex flex-col" aria-hidden="true">
-            <div class="flex-1"></div>
-            <div class="w-full flex-1 bg-gray-800"></div>
+            <div class="flex-1 bg-white"></div>
+            <div class="w-full flex-1 bg-indigo-600"></div>
           </div>
           <div class="mx-auto max-w-7xl flex justify-center px-4 sm:px-6">
-            <div class="h-[600px] w-[600px] mt-1 z-50 flex justify-center items-center drop-shadow-xl">
+            <div class="h-[500px] w-[500px] mt-1 z-50 flex justify-center items-center drop-shadow-xl">
               <video
                 src="../static/Algorithm-imitating-the-behavior-of-a-blob-to-link-the-nuclear-power-plants-of-France.mp4"
                 class="relative h-full w-full rounded-l-xl" autoplay muted loop></video>
-              <div class="w-[600px] rounded-r-xl">
+              <img src="../static/Schema-de-l-algorythme.jpg" class="h-full -mx-1" alt="">
+              <div class="w-[500px] rounded-r-xl">
                 <pre><code class="language-python">
 # UTF8 encoding
 """
@@ -441,10 +558,9 @@ if __name__ == "__main__":
           </div>
         </div>
       </div>
-      <div class="bg-gray-800">
+      <div class="bg-indigo-600">
         <div class="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-          <h2 class="text-center text-base font-semibold text-gray-400">Trusted by over 26,000 forward-thinking
-            companies</h2>
+          <h2 class="text-center text-base font-semibold text-gray-200">Ils nous font confiance.</h2>
           <div class="mt-8 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
             <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
               <img class="h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple">
@@ -486,6 +602,6 @@ export default {
 
 <style>
 pre, code {
-  @apply text-sm m-0 rounded-r-xl h-[600px] overflow-scroll !important;
+  @apply text-sm m-0 rounded-r-xl h-[500px] overflow-scroll !important;
 }
 </style>

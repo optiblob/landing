@@ -12,6 +12,8 @@
     "lintfix": "prettier --write --list-different ."
   },
   "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.3",
     "core-js": "^3.25.3",
     "nuxt": "^2.15.8",
     "prismjs": "^1.29.0",
